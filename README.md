@@ -69,3 +69,9 @@ Classification Report:
     accuracy                           0.74       200
    macro avg       0.75      0.66      0.67       200
 weighted avg       0.74      0.74      0.71       200
+
+Analisis Hasil:
+- Akurasi model sebesar 74% menunjukkan bahwa model cukup baik dalam mengklasifikasikan data.
+- Kelas 1 (layak kredit) memiliki recall tinggi (93%), artinya model berhasil mengenali sebagian besar individu yang memang layak kredit.
+- Namun, kelas 0 (tidak layak) memiliki recall rendah (39%), artinya banyak orang yang tidak layak malah diprediksi layak oleh model (false positive tinggi).
+- Hal tersebut menunjukkan adanya ketidakseimbangan prediksi dan model cenderung bias terhadap kelas mayoritas (layak kredit).
